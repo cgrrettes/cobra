@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Navegação</title>
+    
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        height: 100vh;
+    }
+
+  
+    .navbar{
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+       
+    }
+
+    .navbar a{
+        display: block;
+        color: rgb(133, 26, 26);
+    }
+
+    .navbar a hover{
+        background-color: aquamarine;
+        color: black;
+    }
+
+    .navbar a hover ~ *{
+        background-color: aquamarine;
+        color: black;
+    }
+    .navbar a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        
+      
+    }
+    .navbar a hover{
+        background-color: rgb(0, 0, 0);
+        color: black;
+   
+    }
+    .section{
+        padding: 30px;
+    }
+    .form-container{
+        max-width: 600px;
+        margin: auto;
+    }
+    .form-container button{
+        background-color: black;
+        color: white;
+        padding: 14px 20px;
+        margin: 5px 0px;
+        border:1px solid white;
+        cursor: pointer;
+    }
+
+    .form-container button:hover{
+        background-color: bisque;
+        color: black;
+    }
+    .form-container input, .form-container textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid;
+        box-sizing: border-box;
+        margin: 5px 0px 20px 0px;
+    }
+
+    footer{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        padding: 10px 0px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        right: 10px;
+        right:  12px;
+    }
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-top{
+        margin-top: 10px;
+    }
+    .footer-bottom{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .text-left-middle{
+        position: absolute;
+        right: 655px;
+        transform: translateX(-50%);
+        top: 35%;
+        width: 40%;
+        text-align: left;
+        font-size: 20px;
+        
+    }
+
+    .image-right{
+      position: relative;
+      top: 12%;
+      left: 328px;
+      width: 35%;
+    }
+
+.play-button{
+    margin-top: 20px;
+    padding: 14px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+    .play-button:hover{
+        background-color: rgb(124, 122, 119);
+        color: rgb(241, 241, 241);
+    }
+.logo{
+    position: relative;
+    top: 8%;
+    right: 500px;
+    width: 3%;
+}
+
+</style>
+
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="a.html">Home</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobrenos.html">Sobre Nós</a>
+    </div>
+    <div class="text-left-middle">
+        <h1>Cobra de Cobres</h1>
+        <p class="texto">Em Cobra Cobres, você controla uma cobra faminta que deve coletar moedas brilhantes para acumular pontos. No entanto, tome cuidado com os obstáculos e inimigos que surgem pelo caminho! Sua missão 
+        é guiar a cobra através de cenários desafiadores, coletando o máximo de moedas possível e evitando colisões.</p>
+        <a href="jogo.html"><button class="play-button" > Ir para o jogo</button>
+    </div>
+ 
+    <img class="image-right" src="d288dc59bed2eca85b7434e31e49ef4c-removebg-preview.png"/> 
+    <footer>
+        <div class="footer-content">
+        <p>&copy; 2024 Empresa. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
